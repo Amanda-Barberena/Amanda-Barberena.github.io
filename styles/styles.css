@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0px auto;
+	padding: 0px;
+	border: 0px;
+	font-size: 16px;
+	color: black;
+    max-width: 1280px;
+	background-color: white;
+	font-family: Gotham, Arial, "sans-serif";
+}
+/* Rick style ideas */
+/* figure, gridcontainer2 and links selectors, done-zo.
+/* I have some ideas about making Courgette font visible. 
+/* h1 selector now in .bannerHeadline. */
+.banner {
+	background-image: url("assets/Sunset2.JPG");
+    background-color: red;
+    padding: 1em;
+}
+.bannerHeadline {
+    font-family: Courgette, Gotham, "Helvetica Light Oblique", "serif";
+    font-size: 5em;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 3px solid grey;
+}
+/* end Rick style ideas */
+
+/*nav styles*/
+.navigation {
+	list-style-type: none;
+	background-color: grey;
+	margin: 0em 1em;
+	padding: 0em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: purple;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+/*.boxheader{
+	background-color: #f19b76;
+	opacity: 35%;
+	height: 1em;
+	padding: 1em;
+	margin: 1em;
+	position: absolute;
+}*/
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 1em;
+	margin: 1em;
+}
+
+.radio {
+	width: 640px;
+	height: 318px;
+}
+
+.writing {
+	width: 640px;
+	height: 318px;
+}
+	
+.design {
+	width: 640px;
+	height: 318px;
+}
+
+.photo {
+	width: 640px;
+	height: 318px;
+}
+/* I added the period in footer selector below . */
+.footer{
+	background-color: #f19b76;
+	font-family: Courgette, "Helvetica Light Oblique", "serif";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
