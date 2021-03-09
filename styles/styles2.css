@@ -537,6 +537,33 @@ audio {
 	margin: 1em 0em;
 }
 
+/*Freelance Services below*/
+.freelanceHeadline{
+	font-size: 2em;
+	text-align: center;
+}
+.freelanceSubhead{
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1em;
+}
+.freelanceSubhead2{
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1em;
+}
+.freelanceSubhead3{
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.freelanceForm {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
 /*Footer section below*/
 .footer {
 	/*background-image:url("../assets/Portfolio Banner EDIT2.jpg");*/
